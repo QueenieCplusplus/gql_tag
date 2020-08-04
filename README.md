@@ -232,3 +232,27 @@ https://github.com/QueenieCplusplus/Backend_Script/blob/master/Auth/Users.js
 # Mutation Sampo Code 2
 
 https://github.com/QueenieCplusplus/Backend_Script/blob/master/-Nodejs/Upload-master/postPhoto.js
+
+
+    import React, {Component} from 'react'
+
+    export deafult class PostPhoto extends Component {
+
+    state = {
+        name: '',
+        des: '',
+        file: ''
+    }
+
+    postPhoto = (mutation)=>{
+        console.log('In the phase of upload photo now...')
+        console.log(this.state)
+    }
+
+    render(){
+        return(<form>
+              //...
+            </form>)
+
+    }
+}
