@@ -19,7 +19,7 @@ https://github.com/QueenieCplusplus/Backend_Script/blob/master/Security/dataLimi
     const httpServer = createServer(app);
 
     // 倘若有終端使用者請求的資料量非常的大，如下
-    Query allData {
+    /*Query allData {
         allData(first=9999){
             name
             url
@@ -28,7 +28,7 @@ https://github.com/QueenieCplusplus/Backend_Script/blob/master/Security/dataLimi
                 avatar
             }
         }
-    }
+    }*/
 
     // 設定資料處理上限如下
     allData: (root, data, context) {
