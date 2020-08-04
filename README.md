@@ -68,6 +68,8 @@ mutation.js
     
  # Query Sampo Code 2
  
+ https://github.com/QueenieCplusplus/Backend_Script/blob/master/Auth/Users.js
+ 
  
  1.App.js
  
@@ -156,6 +158,7 @@ mutation.js
 
 # Mutation Syntax & Sampo Code
 
+https://github.com/QueenieCplusplus/Backend_Script/blob/master/Auth/Users.js
 
     import React from 'react';
     import {Mutation} from 'react-apollo';
