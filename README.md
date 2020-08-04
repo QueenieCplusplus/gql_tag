@@ -151,6 +151,8 @@ mutation.js
             {name}
         </li>
         }
+        
+        export default Users
 
 # Mutation Syntax & Sampo Code
 
