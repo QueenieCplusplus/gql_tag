@@ -228,3 +228,7 @@ https://github.com/QueenieCplusplus/Backend_Script/blob/master/Auth/Users.js
         }
 
     export default Users
+
+# Mutation Sampo Code 2
+
+https://github.com/QueenieCplusplus/Backend_Script/blob/master/-Nodejs/Upload-master/postPhoto.js
