@@ -160,6 +160,23 @@ mutation.js
     import React from 'react';
     import {Mutation} from 'react-apollo';
     import {gql} from 'apollo-boost';
+    
+    import {ROOT_QUERY} from './App'
+
+ 
+      // refetch to reload
+     const Users = () =>
+    <Query query={ROOT_QUERY}>
+    
+     {({data, loading, refetch}) => loading? 
+        <p> loading users...</p>:
+        <userList count={data.totalUsers}
+            users={data.allUsers}
+            refetchUsers={referch}
+        />
+     }
+     
+     </Query>
 
 
     const ADD_USERS_MUTATION = gqlˋ
