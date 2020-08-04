@@ -48,6 +48,8 @@ mutation.js
 
 # Query Sampo Code
 
+https://github.com/QueenieCplusplus/Backend_Script/blob/master/-Nodejs/Upload-master/photo.js
+
     import React from 'react'
     import {Query} from 'react-apollo'
 
