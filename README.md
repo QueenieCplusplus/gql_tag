@@ -66,25 +66,56 @@ mutation.js
     export default photo;
     
     
- //
+ # Query Sampo Code 2
  
  
-     import React from 'react';
-     import {Query} from 'react-apollo';
-     import {gql} from 'apollo-boost';
-     import {ROOT_QUERY} from './App'
+ 1.App.js
+ 
+    import React from 'react';
+    import {gql} from 'apollo-boost';
+    import {BrowserRouter} from 'react-router-dom';
+    //import { userInfo } from 'os';
+    import Users from './Users'
 
-    const Users = () => {
+
+    export const ROOT_QUERY = gqlˋ
     
-      <Query query={ROOT_QUERY}>
+            query allUsers {
 
-           {result =>
-              <p> Users are loading now: {result.loading ? "yes": "no"}</p>
-           }
+             }
 
-      </Query>
-      
-    }
+            //fragement userInfo on User{
+
+            //}
+    ˋ
+    const App = ()=>
+        <BrowserRouter>
+            <div>
+                <Users />
+            </div>
+        </BrowserRouter>
+
+    export default App;
+ 
+ 
+ 2. Uses.js
+ 
+         import React from 'react';
+         import {Query} from 'react-apollo';
+         import {gql} from 'apollo-boost';
+         import {ROOT_QUERY} from './App'
+
+         const Users = () => {
+
+           <Query query={ROOT_QUERY}>
+
+               {result =>
+                  <p> Users are loading now: {result.loading ? "yes": "no"}</p>
+               }
+
+           </Query>
+
+         }
 
 # Mutation Syntax & Sampo Code
 
